@@ -527,33 +527,33 @@ display: block;
 }
 
 #slateWrapper .page-wrapper .lang-selector {
-display: none;
+  display: none;
 }
 
 #slateWrapper .content>h1, #slateWrapper .content>h2, #slateWrapper .content>h3, #slateWrapper .content>h4, #slateWrapper .content>h5, #slateWrapper .content>h6,
 #slateWrapper .content>p, #slateWrapper .content>table, #slateWrapper .content>ul, #slateWrapper .content>ol, #slateWrapper .content>aside, #slateWrapper .content>dl {
-margin-right: auto;
+  margin-right: auto;
 }
 
 #slateWrapper .content pre, #slateWrapper .content blockquote {
-margin: 0;
-width: 100%;
-float: none;
-clear: right;
-max-height: none;
+  margin: 0;
+  width: 100%;
+  float: none;
+  clear: right;
+  max-height: none;
 }
 
 body {
-font-size: 16px;
+  font-size: 16px;
 }
 
 %right-col {
-width: auto;
-float: none;
+  width: auto;
+  float: none;
 }
 
 %right-col + %left-col {
-margin-top: $main-padding;
+  margin-top: $main-padding;
 }
 
 
@@ -661,4 +661,26 @@ margin-top: $main-padding;
 
 .highlight, .highlight .w {
   background-color: $code-bg;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Install styles
+////////////////////////////////////////////////////////////////////////////////
+// These are the styles for phones and tablets
+// There are also a couple styles disperesed
+strong {
+  font-weight: bold;
+}
+
+div.alert-info {
+  background-color: rgb(221, 241, 255);
+  border-radius: 0.5em;
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+div.alert-warn {
+  background-color: rgb(255, 247, 216);
+  border-radius: 0.5em;
+  padding: 0.25em 1em 0.25em 1em;
 }
